@@ -1,0 +1,102 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper {
+    width: 240px;
+    height: 320px;
+    margin: 12px 0;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+   background-image: url('https://sun9-73.userapi.com/c9653/u103855526/141160862/x_a8d00b5b.jpg');
+   background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    background-image: url('https://klev.club/uploads/posts/2023-10/1697622298_klev-club-p-risunki-karti-bakugan-26.png');
+   background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-image: url('https://avatars.mds.yandex.net/i?id=7196d13e26249c8d3a25a9b2fc50a83f_l-4854935-images-thumbs&n=13');
+    background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-image: url('https://avatars.mds.yandex.net/i?id=bb77796a915afd4536d4947ebb896c2c_sr-9030097-images-thumbs&n=13');
+   background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-image: url('https://sun9-3.userapi.com/c10693/u59679990/143340143/x_fb9b4a69.jpg');
+   background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(6n) {
+    background-image: url('https://avatars.mds.yandex.net/i?id=ecc2328d9037791e6ff44409f10fdd48f8704f5c-9569150-images-thumbs&n=13');
+    background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    background-image: url('https://bakugan.my-koren.com/images/High-Voltage.jpg');
+   background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(8n) {
+    background-image: url('https://pm1.narvii.com/6816/b41fb6619ff8ff345da8f796c7a493c0f4cd8b1dv2_hq.jpg');
+   background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(9n) {
+    background-image: url('https://avatars.mds.yandex.net/i?id=7253f100f53d5df685bc8da9aad85771_l-4628623-images-thumbs&n=13');
+   background-size: contain;
+  }
+  
+  .swiper-slide:nth-child(10n) {
+    background-image: url('https://avatars.mds.yandex.net/i?id=fc3b7a1bbd992cbb4049e251d28b7dbe_l-4420695-images-thumbs&n=13');
+   background-size: contain;
+  }

@@ -1,0 +1,355 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* =====================CARD SWIPER======================= */
+
+.swiper {
+  width: 240px;
+  height: 320px;
+  margin: 12px 0;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.cardSwiper.swiper-slide:nth-child(1n) {
+ background-image: url('https://sun9-73.userapi.com/c9653/u103855526/141160862/x_a8d00b5b.jpg');
+ background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(2n) {
+  background-image: url('https://klev.club/uploads/posts/2023-10/1697622298_klev-club-p-risunki-karti-bakugan-26.png');
+ background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(3n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=7196d13e26249c8d3a25a9b2fc50a83f_l-4854935-images-thumbs&n=13');
+  background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(4n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=bb77796a915afd4536d4947ebb896c2c_sr-9030097-images-thumbs&n=13');
+ background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(5n) {
+  background-image: url('https://sun9-3.userapi.com/c10693/u59679990/143340143/x_fb9b4a69.jpg');
+ background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(6n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=ecc2328d9037791e6ff44409f10fdd48f8704f5c-9569150-images-thumbs&n=13');
+  background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(7n) {
+  background-image: url('https://bakugan.my-koren.com/images/High-Voltage.jpg');
+ background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(8n) {
+  background-image: url('https://pm1.narvii.com/6816/b41fb6619ff8ff345da8f796c7a493c0f4cd8b1dv2_hq.jpg');
+ background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(9n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=7253f100f53d5df685bc8da9aad85771_l-4628623-images-thumbs&n=13');
+ background-size: contain;
+}
+
+.cardSwiper.swiper-slide:nth-child(10n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=fc3b7a1bbd992cbb4049e251d28b7dbe_l-4420695-images-thumbs&n=13');
+ background-size: contain;
+}
+
+/* =============================CREATIVE SWIPER============================== */
+
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+
+.mySwiper {
+  margin: 100px auto;
+  width: 320px;
+  height: 240px;
+}
+
+.mySwiper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.creativeSwiper.swiper-slide:nth-child(1n) {
+  background-image: url('https://cdn.ananasposter.ru/image/cache/catalog/poster/anime/81/17200-1000x830.jpg');
+  background-size: contain;
+}
+
+.creativeSwiper.swiper-slide:nth-child(2n) {
+  background-image: url('https://wallpaper-house.com/data/out/12/wallpaper2you_487436.jpg');
+  background-size: cover;
+}
+
+.creativeSwiper.swiper-slide:nth-child(3n) {
+  background-image: url('https://cerenas.club/uploads/posts/2022-11/1668475578_cerenas-club-p-chopper-van-pis-art-krasivo-55.jpg');
+  background-size: cover;
+}
+
+.creativeSwiper.swiper-slide:nth-child(4n) {
+  background-image: url('https://cdn.wallpapersafari.com/24/25/AbrWho.jpg');
+  background-size: cover;
+}
+
+.creativeSwiper.swiper-slide:nth-child(5n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=97a3ee754cd1261597c95cfb7e5a5954_l-4622572-images-thumbs&n=13');
+  background-size: cover;
+}
+
+.creativeSwiper.swiper-slide:nth-child(6n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=d3ebe4dff8105a3c7f04b4de9558ead1_l-5205074-images-thumbs&n=13');
+  background-size: cover;
+}
+
+.creativeSwiper.swiper-slide:nth-child(7n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=5777382c91d4fa7d63013b29f57d903e_l-5228619-images-thumbs&n=13');
+  background-size: cover;
+}
+
+.creativeSwiper.swiper-slide:nth-child(8n) {
+  background-image: url('https://wallpaper.forfun.com/fetch/c4/c43bce0a9ba712620897d34036e0a299.jpeg');
+  background-size: cover;
+}
+
+.creativeSwiper.swiper-slide:nth-child(9n) {
+  background-image: url('https://get.wallhere.com/photo/black-background-anime-anime-boys-warrior-One-Piece-Roronoa-Zoro-Person-costume-design-profession-225083.jpg');
+  background-size: cover;
+}
+
+.creativeSwiper.swiper-slide:nth-child(10n) {
+  background-image: url('https://avatars.mds.yandex.net/i?id=fc3b7a1bbd992cbb4049e251d28b7dbe_l-4420695-images-thumbs&n=13');
+  background-size: cover;
+}
+/* ========================CUBE SWIPER=================================== */
+
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.myCubeSwiper {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  bottom: 50%;
+  /* margin-left: -150px;
+  margin-top: -150px; */
+}
+
+.cubeSwiper {
+  background-position: center;
+  background-size: cover;
+}
+
+.cubeSwiper img {
+  display: block;
+  width: 100%;
+}
+/* ============================GROUP SWIPER==================================== */
+
+.myGroupSwiper {
+  width: 100%;
+  height: 100%;
+}
+
+.groupSwiper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.groupSwiper img {
+  display: block;
+  width: 100%;
+}
+
+@media only screen and (min-width: 769px) {
+  .groupSwiper:first-child {
+    transition: transform 100ms;
+  }
+
+  .groupSwiper:first-child img {
+    transition: box-shadow 500ms;
+  }
+
+  .groupSwiper.swiper-slide-active:first-child {
+    transform: translateX(50%);
+    z-index: 2;
+  }
+
+  .groupSwiper.swiper-slide-active:first-child img {
+    box-shadow: 0px 32px 80px rgba(0, 0, 0, 0.35);
+  }
+
+  .groupSwiper:nth-child(2) {
+    transition: transform 100ms;
+  }
+
+  .groupSwiper.swiper-slide-next:nth-child(2) {
+    transform: translateX(55%);
+    z-index: 1;
+  }
+
+  .swiper[dir="rtl"] .sgroupSwiper.swiper-slide-active:first-child {
+    transform: translateX(-50%);
+  }
+
+  .swiper[dir="rtl"] .groupSwiper.swiper-slide-next:nth-child(2) {
+    transform: translateX(-55%);
+  }
+}
+
+/* ========================MOUSE SWIPER=============================================== */
+
+.myMouseSwiper {
+  width: 880px;
+  /* height: 100%; */
+  background-size: contain;
+  height: 500px;
+}
+
+.mouseSwiper {
+  text-align: center;
+  font-size: 18px;
+  background: #825656;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mouseSwiper img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mouseSwiper.swiper-slide:nth-child(1n) {
+  background-image: 
+  url('https://i.pinimg.com/736x/2c/71/f7/2c71f7fc1a57010f17beb9d1841060e1.jpg');
+  background-size: cover;
+}
+.mouseSwiper.swiper-slide:nth-child(2n) {
+  background-image: 
+  url('https://i.pinimg.com/564x/06/f6/be/06f6be787771c84be91ba05d8e871207.jpg');
+  background-size: cover;
+}
+.mouseSwiper.swiper-slide:nth-child(3n) {
+  background-image: 
+  url('https://i.pinimg.com/736x/3f/51/f3/3f51f31e9ffe762d0b0a8b0c38f7c1e7.jpg');
+  background-size: cover;
+}
+.mouseSwiper.swiper-slide:nth-child(4n) {
+  background-image: 
+  url('https://i.pinimg.com/564x/96/ba/3d/96ba3d9ae04c168481382425ee208109.jpg');
+  background-size: cover;
+}
+.mouseSwiper.swiper-slide:nth-child(5n) {
+  background-image: 
+  url('https://i.pinimg.com/736x/97/06/72/970672048bd58523de8d582a105a60f9.jpg');
+  background-size: cover;
+}
+.mouseSwiper.swiper-slide:nth-child(6n) {
+  background-image: 
+  url('https://i.pinimg.com/736x/52/1b/b8/521bb80c5ab125a255c1f002c348dd91.jpg');
+  background-size: cover;
+}
+.mouseSwiper.swiper-slide:nth-child(7n) {
+  background-image: 
+  url('https://i.pinimg.com/736x/db/ca/db/dbcadb9da4f84e02b0e4ddb033ef18ef.jpg');
+  background-size: cover;
+}
+.mouseSwiper.swiper-slide:nth-child(8n) {
+  background-image: 
+  url('https://i.pinimg.com/736x/bc/67/b1/bc67b1a3e0c91bfee7d040719578ee0b.jpg');
+  background-size: cover;
+}
+.mouseSwiper.swiper-slide:nth-child(9n) {
+  background-image: 
+  url('https://i.pinimg.com/736x/6b/91/c2/6b91c2519ad45cd5d41de002ed7ff7c8.jpg');
+  background-size: cover;
+}
